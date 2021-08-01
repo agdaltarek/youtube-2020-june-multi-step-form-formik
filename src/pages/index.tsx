@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Box, Button, Card, CardContent, CircularProgress, Grid, Step, StepLabel, Stepper } from '@material-ui/core';
 import { Field, Form, Formik, FormikConfig, FormikValues } from 'formik';
 import { CheckboxWithLabel, TextField } from 'formik-material-ui';
@@ -73,6 +74,10 @@ export default function Home() {
       </CardContent>
     </Card>
   );
+=======
+export default function Home() {
+  return <div>Hello Youtube!!!</div>;
+>>>>>>> parent of 5870d5f (Add material-ui like we did in our Next.js Tutorial Part 5. Video URL = https://youtu.be/k7bKDpw-JGk)
 }
 
 export interface FormikStepProps
